@@ -11,7 +11,7 @@ class Class1():
 
 class Class2(Class1):
 	def __init__(self):
-		Class1.__init(self)
+		Class1.__init__(self)
 		print("Class 2 Created")
 	def method_3(self):
 		print("method 3 ")
